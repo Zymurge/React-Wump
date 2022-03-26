@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# React Wump
+
+It's time for me to pretend that I'm a front end dev and to learn some React. Insprired by a tic-tac-toe tutorial, I decided to expand the board concept and eventually evolved into this new version of Hunt the Wumpus.
+
+## Premise
+
+A Wumpus trapper enters an enormous, pitch back cave, knowing somewhere inside is the elusive prize that they must catch. The trapper totally forgot to bring a flashlight though, so has to resort on their innate abilities. Standing still in the dark they can smell the Wumpus' distinct aroma. Being as experienced as they are, they can estimate about how far away they are based on the potency, but can't really get a sense of direction towards the origin without moving. 
+
+In order to locate the Wumpus, the trapper takes uses their nose to get a feeling for how far away their quarry is, then they move as far as they want within the cave. They then stop and take another nasal survey. This sequence repeats until the get close enough to the Wumpus to get a hold of it.
+
+Since the cave is dark and vast, it's very easy to get disoriented The trapper can only keep tabs on their last couple of scent readings.
+
+The Wumpus meanwhile, prefers not to be trapped. With it's sensitive ears, it knows that it's not alone in the cave. Every time the trapper moves, the Wumpus hears the steps and reacts by changing location if it feels like it. The longer the trapper walks, the further the Wumpus can move during that time frame. If the trapper takes only a few small steps, the Wumpus will stay put, not being able to get a good read on whether it's safe to make a move. 
+
+## Game Play
+
+The game starts with a grid of squares, one of which contains the hidden Wumpus. The player has to locate the Wumpus by clicking on squares and using the information provided to narrow in on the creature. The goal is to find it with the least number of guesses.
+
+To make things more fun, the Wumpus will randomly move. For each guess after the player's initial entry into the realm, the Wumpus can move up to hald as far. If the player only moves a single square, the Wumpus will stay put. Thus the player has to weigh the gains from being able to travel further in a given turn with the downside of losing tabs on the target location. 
+
+On each click of a square, the square turns from black to a color on the gradient scale of green (very close) to yellow (far away). Previous guesses will fade to black over time.
+
+## Credit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The rest of this comes from the vanilla bootstrap info.
 
 ## Available Scripts
 
