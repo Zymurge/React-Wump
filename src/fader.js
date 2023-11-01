@@ -9,9 +9,9 @@ export default class Fader {
     }
 
     Color(shade) {
-        r = this.enR + (this.enR-this.stR)*shade/100;
-        g = this.enG + (this.enG-this.stG)*shade/100;
-        b = this.enB + (this.enB-this.stB)*shade/100;
+        let r = this.enR + (this.enR-this.stR)*shade/100;
+        let g = this.enG + (this.enG-this.stG)*shade/100;
+        let b = this.enB + (this.enB-this.stB)*shade/100;
         return `rgb(${r},${g},${b})`
     }
 
